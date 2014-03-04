@@ -14,13 +14,13 @@
 		B69757BD18C681D000A7D04E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B69757BC18C681D000A7D04E /* main.m */; };
 		B69757C118C681D000A7D04E /* MZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B69757C018C681D000A7D04E /* MZAppDelegate.m */; };
 		B69757C418C681D000A7D04E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69757C218C681D000A7D04E /* Main.storyboard */; };
-		B69757C718C681D000A7D04E /* MZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69757C618C681D000A7D04E /* MZViewController.m */; };
 		B69757C918C681D000A7D04E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B69757C818C681D000A7D04E /* Images.xcassets */; };
 		B69757D018C681D000A7D04E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69757CF18C681D000A7D04E /* XCTest.framework */; };
 		B69757D118C681D000A7D04E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69757B018C681CF00A7D04E /* Foundation.framework */; };
 		B69757D218C681D000A7D04E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69757B418C681D000A7D04E /* UIKit.framework */; };
 		B69757DA18C681D000A7D04E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B69757D818C681D000A7D04E /* InfoPlist.strings */; };
 		B69757DC18C681D000A7D04E /* UITableViewController_Challange_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B69757DB18C681D000A7D04E /* UITableViewController_Challange_SolutionTests.m */; };
+		B69757E718C6838000A7D04E /* MZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69757E618C6838000A7D04E /* MZTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		B69757BF18C681D000A7D04E /* MZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZAppDelegate.h; sourceTree = "<group>"; };
 		B69757C018C681D000A7D04E /* MZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZAppDelegate.m; sourceTree = "<group>"; };
 		B69757C318C681D000A7D04E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B69757C518C681D000A7D04E /* MZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZViewController.h; sourceTree = "<group>"; };
-		B69757C618C681D000A7D04E /* MZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZViewController.m; sourceTree = "<group>"; };
 		B69757C818C681D000A7D04E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B69757CE18C681D000A7D04E /* UITableViewController Challange SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challange SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69757CF18C681D000A7D04E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B69757D718C681D000A7D04E /* UITableViewController Challange SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challange SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		B69757D918C681D000A7D04E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B69757DB18C681D000A7D04E /* UITableViewController_Challange_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challange_SolutionTests.m; sourceTree = "<group>"; };
+		B69757E518C6838000A7D04E /* MZTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZTableViewController.h; sourceTree = "<group>"; };
+		B69757E618C6838000A7D04E /* MZTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				B69757BF18C681D000A7D04E /* MZAppDelegate.h */,
 				B69757C018C681D000A7D04E /* MZAppDelegate.m */,
 				B69757C218C681D000A7D04E /* Main.storyboard */,
-				B69757C518C681D000A7D04E /* MZViewController.h */,
-				B69757C618C681D000A7D04E /* MZViewController.m */,
+				B69757E518C6838000A7D04E /* MZTableViewController.h */,
+				B69757E618C6838000A7D04E /* MZTableViewController.m */,
 				B69757C818C681D000A7D04E /* Images.xcassets */,
 				B69757B718C681D000A7D04E /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B69757C718C681D000A7D04E /* MZViewController.m in Sources */,
 				B69757BD18C681D000A7D04E /* main.m in Sources */,
+				B69757E718C6838000A7D04E /* MZTableViewController.m in Sources */,
 				B69757C118C681D000A7D04E /* MZAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  MZViewController.h
+//  MZTableViewController.h
 //  UITableViewController Challange Solution
 //
 //  Created by Matt Ziegler on 3/4/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MZViewController : UIViewController
+@interface MZTableViewController : UITableViewController
 
 @end
